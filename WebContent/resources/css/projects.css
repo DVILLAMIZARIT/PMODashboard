@@ -1,0 +1,36 @@
+#projects {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:85%;
+	border-collapse:collapse;
+}
+
+#projects td, #projects th {
+	font-size:1em;
+	border:1px solid #000000;
+	padding: 3px 7px 2px 7px
+}
+
+#projects th {
+	font-size:1.1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#606060;
+	color:#ffffff;
+}
+
+#projects tr.alt td {
+	color:#000000;
+	background-color:#EAF2D3;
+}
+
+#head1 {
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #808080;
+}
+
+#indFont {
+	font-size: 70%;
+	color: #808080;
+}

@@ -1,0 +1,145 @@
+body {
+    background: url("resources/images/bg_noisy.png") repeat scroll 0 0 #766A62;
+    font: 12px verdana;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.login_wrap {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    height: 370px;
+    left: 50%;
+    margin: -200px 0 0 -200px;
+    padding: 20px 55px;
+    position: absolute;
+    top: 50%;
+    width: 300px;
+}
+.logo {
+    padding: 20px 0 30px;
+    text-align: center;
+}
+.vform {
+    margin: 0 auto;
+}
+a {
+    color: #D5392C;
+    font-size: 10px;
+    text-decoration: none;
+}
+.vform fieldset.float label {
+    float: left;
+    line-height: 30px;
+    min-width: 100px;
+}
+.vform p, .vform label {
+    color: #777777;
+    text-align: justify;
+}
+.vform label, .vform input {
+    margin: 2px;
+}
+.vform fieldset input {
+    box-sizing: border-box;
+    color: #999999;
+    line-height: 20px;
+    padding: 3px;
+    width: 169px;
+}
+.vform textarea {
+    height: 100px;
+}
+.vform fieldset.float {
+    float: left;
+    margin: 0;
+}
+.vform .clear {
+    clear: both;
+}
+.vform fieldset {
+    margin-bottom: 10px;
+}
+.vform .btn2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.vform .vcontact {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #CCCCCC;
+    padding: 20px 30px;
+}
+.vform.buy {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #CCCCCC;
+    padding: 20px 30px;
+    width: 85%;
+}
+fieldset {
+    border: 0 none;
+}
+.cute_button {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #E65401;
+    border-color: #D3D5D4 #D3D5D4 #ACACAC;
+    border-image: none;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    clear: both;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    padding: 8px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.cute_button:hover {
+    background: none repeat scroll 0 0 #A1A1A1;
+    color: #FFFFFF !important;
+}
+.cute_button:active {
+    background: none repeat scroll 0 0 #E8E8E8;
+    color: #999999;
+}
+.get_started {
+    margin: 0 auto;
+    text-align: center;
+}
+.get_started a {
+    background: none repeat scroll 0 0 #777777;
+    border-bottom: 3px solid #444444;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font: 300 13px Verdana,sans-serif;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-shadow: 0 1px #999999;
+    transition-duration: 0.2s;
+    z-index: 100;
+}
+.get_started a:hover {
+    background: none repeat scroll 0 0 #9EB74D;
+    border-bottom-color: #336600;
+}
+#me_box {
+    color: #FF4500;
+    margin-top: 70px;
+}
+#me_box li {
+    list-style-type: none;
+}
+html {
+    height: 100%;
+}
+.login_wrap {
+    display: inline-block;
+    left: auto;
+    margin: 0;
+    position: static;
+    top: auto;
+}
